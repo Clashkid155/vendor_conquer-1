@@ -24,5 +24,6 @@ carthage: $(INTERNAL_OTA_PACKAGE_TARGET)
 	@echo -e "\t Zip: $(CONQUER_TARGET_PACKAGE)"
 	@echo -e "\t MD5: `cat $(CONQUER_TARGET_PACKAGE).md5sum | awk '{print $$1}' `"
 	@echo -e "\t Size: `du -sh $(CONQUER_TARGET_PACKAGE) | awk '{print $$1}' `"
+	@echo -e "\t Version: $(CONQUER_VERSION)"
 	@echo -e "\t ConquerOS X - BeTheConqueror"
 	@echo -e "\t =============================================================================================================="
