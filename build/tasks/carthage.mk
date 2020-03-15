@@ -13,6 +13,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+CONQUER_TARGET_PACKAGE := $(PRODUCT_OUT)/$(CONQUER_VERSION).zip
+
 .PHONY: carthage
 carthage: $(INTERNAL_OTA_PACKAGE_TARGET)
 	$(hide) mv $(INTERNAL_OTA_PACKAGE_TARGET) $(CONQUER_TARGET_PACKAGE)
