@@ -3424,20 +3424,22 @@
   <apn carrier="Tigo WAP" mcc="620" mnc="03" apn="wap.tigo.com.gh" type="default,supl" />
   <apn carrier="Zain WAP" mcc="620" mnc="06" apn="wap" proxy="10.93.85.88" port="9401" type="default,supl" />
   <apn carrier="Zain MMS" mcc="620" mnc="06" apn="MMS" mmsproxy="10.93.85.88" mmsport="9401" mmsc="http://zainmms/servlets/mms" type="mms" />
-  <apn carrier="Zain NG" mcc="621" mnc="20" apn="internet.ng.zain.com" type="default,supl" />
+  <apn carrier="Zain NG" mcc="621" mnc="20" apn="internet.ng.airtel.com" type="default,supl" />
   <apn carrier="Visafone" mcc="621" mnc="25" apn="#777" proxy="192.168.165.201" port="8080" mmsc="" user="wap@wap.com" password="wap" authtype="3" type="default,supl" />
   <apn carrier="APTWAP" mcc="621" mnc="25" apn="#777" user="" password="" authtype="3" type="default,supl" />
-  <apn carrier="MTN NG" mcc="621" mnc="30" apn="web.gprs.mtnnigeria.net" user="web" password="web" proxy="10.199.212.2" type="default,supl" />
+  <apn carrier="MTN NG" mcc="621" mnc="30" apn="web.gprs.mtnnigeria.net" user="web" password="web" type="default,supl" />
   <apn carrier="MTN NG MMS" mcc="621" mnc="30" apn="web.gprs.mtnnigeria.net" user="web" password="web" mmsc="http://10.199.212.8/servlets/mms" mmsproxy="10.199.212.2" mmsport="8080" type="mms" />
   <apn carrier="Glo Mobile Internet" mcc="621" mnc="50" apn="gloflat" user="flat" password="flat" proxy="10.100.98.22" type="default,supl" />
   <apn carrier="Glo PAYU" mcc="621" mnc="50" apn="glosecure" type="default,supl" />
   <apn carrier="Glo MMS" mcc="621" mnc="50" apn="glomms" user="mms" password="mms" mmsc="http://mms.gloworld.com/mmsc" mmsproxy="010.100.082.004" mmsport="3130" type="mms" />
   <apn carrier="Glo" mcc="621" mnc="50" apn="glo3gvideo" proxy="10.100.98.22" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Etisalat Internet" mcc="621" mnc="60" apn="etisalat" user="" password="" authtype="3" type="*" />
-  <apn carrier="Etisalat NG" mcc="621" mnc="60" apn="etisalat" type="default,supl" />
+  <apn carrier="Etisalat Internet" mcc="621" mnc="60" apn="9mobile" user="" password="" authtype="3" type="*" />
+  <apn carrier="Etisalat NG" mcc="621" mnc="60" apn="9mobile" type="default,supl" />
   <apn carrier="Etisalat NG MMS" mcc="621" mnc="60" apn="etisalat" mmsc="http://10.71.170.30:38090/was" mmsproxy="10.71.170.5" mmsport="8080" type="mms" />
   <apn carrier="MTN CM" mcc="624" mnc="01" apn="INTERNET" user="guest" password="guest" type="default,supl" />
   <apn carrier="Orange CM WAP" mcc="624" mnc="02" apn="orangecmgprs" proxy="192.168.122.101" port="8080" user="orange" password="orange" type="default,supl" />
+  <apn carrier="Smile NG" mcc="621" mnc="27" apn="internet" type="default" />
+  <apn carrier="Ntel NG" mcc="621" mnc="40" apn="ntel" type="default" />
   <apn carrier="Orange CM MMS" mcc="624" mnc="02" apn="orangecmgprs" user="orange" password="orange" mmsc="http://mms.orange.cm" mmsproxy="192.168.122.101" mmsport="8080" type="mms" />
   <apn carrier="Orange CM" mcc="624" mnc="02" apn="orangecmgprs" user="orange" password="orange" proxy="192.168.122.101" port="8080" mmsc="http://mms.orange.cm" mmsproxy="192.168.122.101" mmsport="8080" type="default,mms" />
   <apn carrier="CVMóvel Internet" mcc="625" mnc="01" apn="internet-aac" proxy="" user="" password="" type="default" />
